@@ -109,6 +109,8 @@ a {
 .cv {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     background-color:black;
     position: relative;
@@ -123,6 +125,15 @@ a {
     color: #D49F37;
     border: 9px solid #C7A869;
     transition-duration: 1s ;
+}
+.projects {
+  margin-top: -90px;
+}
+.fas {
+  margin-top: -50px;
+}
+.fas:hover {
+  color: red;
 }
 
 
@@ -198,6 +209,8 @@ ul {
       color: #D49F37;
       margin-top: 80px;
   }
+
+  
 
 
 
