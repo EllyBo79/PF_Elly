@@ -4,7 +4,6 @@ body, html {
     font-family: libre baskerville;    
     height: 100%;
     margin: 0 auto; 
-    /* cursor:url(https://cdn.custom-cursor.com/db/8473/32/minimal-chilli-pepper-pointer.png), pointer; */
 }
 .container {
     background-image: url("peppers.png");
@@ -13,7 +12,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.head {
+.head {  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,10 +114,10 @@ a {
     background-color:black;
     position: relative;
     width: 500px;
-    height: 300px;
+    height: 500px;
     border: 5px solid #D49F37;
     color: #dfa83aa6;
-    padding-top: 10px;
+    padding-top: 100px;
 }
 .cv:hover {
     background-color: #251b077e;
@@ -128,12 +127,23 @@ a {
 }
 .projects {
   margin-top: -90px;
+  margin-bottom: 20px;
 }
 .fas {
   margin-top: -50px;
 }
 .fas:hover {
-  color: red;
+  color: #dfa83aa6;
+}
+
+.far {
+  margin-top: -50px;
+}
+.far:hover {
+  color: #dfa83aa6;
+}
+.textCar {
+  padding-left: 5px ;
 }
 
 
