@@ -8,8 +8,8 @@
   
   
   .container {
-      background-image: url("sweets2\ \(2\).png");
-      height: 150%;  
+      background-image: url("cottonCandy.png");
+      height: 140%;  
       max-width: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -54,6 +54,16 @@
   }
 
 
+  .spicy {  
+    position: absolute;
+    left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   margin-bottom: 100px;
+   color: gold;
+   }
   .sweet {  
     position: absolute;
     left: 30px;
@@ -63,6 +73,7 @@
     align-items: center;
     flex-direction: column;
    }
+  
   .fab {
     margin-top: -40px;
   }
