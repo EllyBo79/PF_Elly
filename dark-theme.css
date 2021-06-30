@@ -1,16 +1,18 @@
-
 body, html {
-    background-color: black;
-    font-family: libre baskerville;    
-    height: 100%;
-    margin: 0 auto; 
+  background-color: black;
+  font-family: libre baskerville;    
+  height: 100%;
+  margin: 0 auto; 
 }
+
+
 .container {
     background-image: url("peppers.png");
     height: 100%;  
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    max-width: 100%;
 }
 .head {  
     display: flex;
@@ -18,6 +20,7 @@ body, html {
     align-items: center;
     flex-direction: column;
 }
+
 
 .black {
     position: sticky;
@@ -33,6 +36,8 @@ body, html {
     height: 200px;
     color: #D49F37;
 }
+
+
 .black li {
     font-size: 2vw;
     font-weight: 800;
@@ -52,6 +57,25 @@ a {
 .fab {
   margin-top: -40px;
 }
+.spicy {  
+  position: absolute;
+  left: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+ margin-bottom: 50px;
+ color: gold;
+ }
+.sweet {  
+  position: absolute;
+  left: 30px;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+ }
 
   .boxes {
     display: flex;

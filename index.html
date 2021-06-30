@@ -11,12 +11,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b4bd8b414d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
+    <!-- <link id="theme" rel="stylesheet" href="light-theme.css"> -->
+    <link id="stylesheet" rel="stylesheet" href="dark-theme.css">
+
 </head> 
 <body>
+  
   <div class="container">
+    
     <div class="black " >
+
+      <a class="spicy"  href="#" onclick="changeStyle('dark-theme.css');return false;" ><h4>Spicy Me</h4></a> 
+      
+      <a class="sweet" href="#" onclick="changeStyle('light-theme.css');return false;" ><h4>Sweet Me</h4></a>
+   
       <img  src="circle-cropped(2).png" alt="me">
+     
       <ul class="head">
         <li><h1>Elly Bouma</h1></li>
         <li><h2>Junior Front-end Developer</h2></li>
@@ -24,7 +34,8 @@
         <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/elly-bouma-aa920a99/"></a>
             <a class="fab fa-github-square" href=""></a></li>
       </ul>
-
+     
+      
       
     </div>   
 
@@ -148,6 +159,7 @@
   </div>
 
 
+  <script src="portfolio.js"></script>
 
 </body>
 </html>
