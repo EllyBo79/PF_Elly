@@ -58,37 +58,30 @@ a {
   margin-top: -40px;
 }
 .spicy {  
-  position: absolute;
-  left: 30px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 40px;
- margin-bottom: 150px;
- height: 60px;
- width: 70px;
- /* border-radius: 50%; */
- background-color: black;
- border: 3px solid #D49F37 ;
- color: #D49F37;
+  position: relative;  
+  height: 40px;
+  width: 90px;
+  background-color: black;
+  border: 3px solid #D49F37 ;
+  color: #D49F37;
+  top: 20px;
+ }
+ .spicy h4 {
+   font-size: 15px;
+ }
+ .sweet h4 {
+   font-size: 15px;
  }
 
-.sweet {  
-  position: absolute;
-  left: 30px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  height: 60px;
-  width: 70px;
-  /* border-radius: 50%; */
+ .sweet {  
+  position: relative;
+  height: 40px;
+  width: 90px;
   background-color: black;
- border: 3px solid #D49F37 ;
- color: #D49F37;
- margin-top: 40px;
-
+  border: 3px solid #D49F37 ;
+  color: #D49F37;
+  top: 70px;
+  right: 95px;
  }
 
   .boxes {
@@ -350,6 +343,8 @@ ul {
        padding-bottom: 60px;
        padding-right: 10px;
      }
+
+   
   }
 
   @media (min-width: 575px) {
@@ -365,11 +360,14 @@ ul {
     .black a {
       padding-bottom: 60px;
     }
+    .spicy {
+      margin: 0 auto;
+    }
   }
 
   @media (max-width: 767px){
     .black a {
-      margin-top: 1px;
+      margin-top: 0px;
       padding-bottom: 70px;
       padding-right: 10px;
     }
@@ -377,7 +375,7 @@ ul {
 
   @media (min-width: 768px){
     .black ul {
-      margin-top: 70px;
+      margin-top: 80px;
     }
     .black a {
       padding-top: 40px;

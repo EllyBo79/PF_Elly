@@ -26,15 +26,17 @@
       position: sticky;
       top: 1vw;
       z-index: 1;
-      background-color: rgb(247, 229, 231);
+      background-color: rgb(248, 215, 219);
       margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: center;
-      border-bottom: 5px solid rgb(5, 139, 139);
+      /* border-bottom: 5px solid rgb(5, 139, 139); */
+      border-bottom: 10px double white;
       max-width: 100%;
-      height: 200px;
-      color: rgb(5, 139, 139);
+      height: 220px;
+      color: white;
+      text-shadow: 0 0 8px #c545ba, 0 0 5px #6a6adb;
   }
   .black li {
       font-size: 2vw;
@@ -43,46 +45,49 @@
   
   .black ul {
       margin-top: 50px;
+      margin-right: 115px;
   }
   .black a:hover {
     color:#e2b761
   }
   a {    
-      font-size: 50px;
-      color: #d49f37;
+      font-size: 60px;
+      color: white;
       text-decoration: none;
   }
 
 
   .spicy {  
-    position: absolute;
-    left: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-   margin-bottom: 100px;
-   height: 70px;
-   width: 70px;
-   border-radius: 50%;
-   background-color: rgb(247, 229, 231);
-   border: 3px solid hotpink ;
-   color: hotpink;
-   }
-  
-  .sweet {  
-    position: absolute;
-    left: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    height: 70px;
-    width: 70px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    margin-bottom: 100px;
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
     background-color: rgb(247, 229, 231);
-   border: 3px solid hotpink ;
-   color: hotpink;
+    border: 2px solid hotpink ;
+    color: hotpink;
+    box-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+   }
+   .spicy h4 {
+     font-size: 15px;
+   }
+   .sweet h4 {
+    font-size: 15px;
+  }
+ 
+  .sweet {  
+    position: relative;
+    left: -70px;
+    top: 100px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: rgb(247, 229, 231);
+    border: 2px solid hotpink ;
+    color: hotpink;
+    box-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   }
   .fab {
     margin-top: -40px;
@@ -105,10 +110,11 @@
       position: relative;
       width: 500px;
       height: 400px;
-      border: 5px solid rgb(5, 139, 139);
+      border: 5px solid rgb(202, 184, 184);
       color: rgb(5, 139, 139);
       margin-bottom: 75px;
-      padding-top: 10px;
+      margin-top: -150px;
+      padding-top: 20px;
       border-radius: 100%;
   }
   .boxP {
@@ -118,9 +124,9 @@
   }
   .about:hover {
       /* background-color: rgba(255, 255, 255, 0.658); */
-      background-color: rgba(247, 183, 215, 0.897);
+      background-color: rgb(248, 215, 219);
       color: rgb(85, 79, 79);
-      border: 9px solid rgb(3, 85, 85);
+      border: 9px solid rgb(173, 140, 140);
       transition-duration: 1s ;
   }
   .skills {
@@ -336,8 +342,11 @@
   
   
     @media (max-width: 576px) {
+      .black {
+        height: 270px;
+      }
       .black ul {
-        margin-top: 70px;
+        margin-top: 80px;
       }
       .black li {
         align-items: center;
@@ -352,8 +361,12 @@
     }
   
     @media (min-width: 575px) {
+      .black {
+        height: 250px;
+      }
       .black ul {
-        margin-top: 70px;
+        margin-top: 120px;
+        margin-bottom: 40px;
       }
       .black li {
         align-items: center;
